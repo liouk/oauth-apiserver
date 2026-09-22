@@ -267,7 +267,7 @@ github.com/openshift-eng/openshift-tests-extension/pkg/ginkgo
 github.com/openshift-eng/openshift-tests-extension/pkg/junit
 github.com/openshift-eng/openshift-tests-extension/pkg/util/sets
 github.com/openshift-eng/openshift-tests-extension/pkg/version
-# github.com/openshift/api v0.0.0-20260727141720-967cc4c36c9b
+# github.com/openshift/api v0.0.0-20260825094607-13a84dedc5a3
 ## explicit; go 1.26.0
 github.com/openshift/api/authorization/v1
 github.com/openshift/api/build/v1
@@ -295,7 +295,7 @@ github.com/openshift/build-machinery-go/make/targets/golang
 github.com/openshift/build-machinery-go/make/targets/openshift
 github.com/openshift/build-machinery-go/make/targets/openshift/operator
 github.com/openshift/build-machinery-go/scripts
-# github.com/openshift/client-go v0.0.0-20260723174158-ae2315de9d73
+# github.com/openshift/client-go v0.0.0-20260806041845-b74fb348f1e7
 ## explicit; go 1.26.0
 github.com/openshift/client-go/oauth/applyconfigurations
 github.com/openshift/client-go/oauth/applyconfigurations/internal
@@ -332,7 +332,7 @@ github.com/openshift/client-go/user/informers/externalversions/internalinterface
 github.com/openshift/client-go/user/informers/externalversions/user
 github.com/openshift/client-go/user/informers/externalversions/user/v1
 github.com/openshift/client-go/user/listers/user/v1
-# github.com/openshift/library-go v0.0.0-20260727154952-0aacacf2673e
+# github.com/openshift/library-go v0.0.0-20260921203008-af08d67aabb5
 ## explicit; go 1.26.0
 github.com/openshift/library-go/pkg/authentication/bootstrapauthenticator
 github.com/openshift/library-go/pkg/authorization/scopemetadata
@@ -340,6 +340,7 @@ github.com/openshift/library-go/pkg/crypto
 github.com/openshift/library-go/pkg/features
 github.com/openshift/library-go/pkg/oauth/oauthserviceaccountclient
 github.com/openshift/library-go/pkg/oauth/usercache
+github.com/openshift/library-go/pkg/operator/resource/retry
 github.com/openshift/library-go/pkg/serviceability
 # github.com/pkg/errors v0.9.1
 ## explicit
@@ -1583,6 +1584,7 @@ k8s.io/client-go/util/flowcontrol
 k8s.io/client-go/util/homedir
 k8s.io/client-go/util/jsonpath
 k8s.io/client-go/util/keyutil
+k8s.io/client-go/util/retry
 k8s.io/client-go/util/watchlist
 k8s.io/client-go/util/workqueue
 # k8s.io/code-generator v0.36.2 => k8s.io/code-generator v0.36.2
